@@ -1,0 +1,7 @@
+services:
+  odoo-docs:
+    build:
+      context: .
+    volumes: 
+      - .:/docs
+    container_name: odoo-server
